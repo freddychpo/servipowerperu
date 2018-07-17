@@ -1,0 +1,15 @@
+
+#botonera{
+	ul{
+		li{
+			a{
+				&:hover {
+					/*transition: background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;*/
+					background-color: #ED7016;
+				}
+
+			}
+		}
+	}
+}
+

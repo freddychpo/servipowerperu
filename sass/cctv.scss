@@ -1,0 +1,77 @@
+@import 'layout';
+@import 'header';
+@import 'botonera';
+
+body{
+	padding-top: 50px;
+}
+
+.div_imagen{
+	img{
+		max-width: 100%;
+		height: 350px;
+		padding-bottom: 15px;
+		overflow: scroll;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.div_descripcion{
+	p{
+		text-align: justify;
+		margin-right:30px;
+		margin-top:80px;
+	}
+	padding-left: 0px;
+}
+
+.div_form{
+	.btn_Enviar{
+		margin-bottom: 10px;
+	}
+}
+
+@media (min-width: $screen-xs) {
+	#empresa {
+		.cont_bgwhite{
+			background-color: white;
+			.div_descripcion{
+				p{margin-top: 100px;}
+
+			}
+		}
+	}
+
+}
+
+
+@media (min-width: $screen-sm) {
+	#empresa {
+		.cont_bgwhite{
+			background-color: white;
+			.div_descripcion{
+				p{margin-top: 100px;}
+
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-md) {
+	#empresa {
+		.cont_bgwhite{
+			background-color: white;
+			.div_descripcion{
+				p{margin-top: 100px;}
+
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-lg) {
+	#empresa {
+	}
+}

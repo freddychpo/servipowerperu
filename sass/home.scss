@@ -1,0 +1,62 @@
+@import 'layout';
+@import 'header';
+@import 'botonera';
+
+body{
+	padding-top: 50px;
+
+	
+	.panel{
+		.panel-heading{text-align: 	center;}
+		.panel-body{text-align: justify;}
+	}		
+}
+
+p{text-align: justify;}
+
+
+@media all and (max-width: 991px) {
+
+	#home{
+		.carousel-inner{
+			h3{font-size: 15px;}
+		}
+	}
+}
+
+@media (min-width: $screen-xs) {
+
+	#home{		
+
+		.cont_bgwhite{background-color: white;}
+
+		.carousel-inner{text-align: center;}
+	}
+}
+
+
+@media (min-width: $screen-sm) {
+	#home {
+	
+	}
+}
+
+@media (min-width: $screen-md) {
+	#home{		
+		.cont_bgwhite{
+			background-color: white;
+		}
+
+	.carousel-inner{
+		text-align: center; 
+		h3{font-size: 24px;}
+	}
+
+	}
+
+}
+
+@media (min-width: $screen-lg) {
+	#home {
+	}
+}

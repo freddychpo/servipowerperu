@@ -1,0 +1,83 @@
+@import 'utilities';
+
+body{
+	footer{background-color: black;}
+}
+
+.main_section{
+	.carousel_imagen{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+}
+
+.footer_div{
+
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+
+	h3{
+		color:white;
+		font-size:15px;
+	}
+
+	.links_mid{
+		text-align: center;
+		margin-top: 25px;
+	}
+	.copyright{
+		p{
+			text-align: center;
+			color:white;
+			margin-top: 20px;
+		}
+	}
+}
+
+.followus{
+	img{margin-right: 10px;}
+}
+
+@media all and (max-width: 991px) {
+
+	.uno {
+	    order:1;
+	}
+
+	.dos{
+	    order:3;
+	}
+	    
+	.tres{
+	    order:2;
+	}
+}
+
+@media (min-width: $screen-xs) {
+	body {
+		background-color: black;
+	}
+}
+
+@media (min-width: $screen-sm) {
+	body {
+		background-color: black;
+	}
+}
+
+@media (min-width: $screen-md) {
+	body {
+		background-color: black;
+	}
+
+}
+
+@media (min-width: $screen-lg){
+	body{
+		background-color: black;
+	}
+}
