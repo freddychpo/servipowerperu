@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>Tanques de Agua</title>
+
+		<link rel="stylesheet" href="css/bombas.css">
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+					<div class="container-fluid">
+						
+						<div class="navbar-header">
+							<button type="button"
+									class="navbar-toggle collapsed"
+									data-toggle="collapse"
+									data-target="#botonera">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+
+							<a href="" class="navbar-brand ">
+								<i class="brand glyphicon glyphicon-flash"></i>
+							</a>
+							<a href="index.html" class="navbar-brand">ServiPower</a>
+						</div>
+
+						<div id="botonera"class="collapse navbar-collapse navbar-right">
+							<ul class="nav navbar-nav">
+								<li>
+									<a href="index.html">Inicio</a>
+								</li>
+
+								<li>
+									<a href="empresa.html">Empresa</a>
+								</li>
+
+								<li class="dropdown" class="active">
+									<a href="#" class="dropdown-toggle" 
+										data-toggle="dropdown"
+										aria-haspopup="true"
+										aria-expanded="false">Servicios
+										<span class="caret"></span></a>
+										
+									<ul class="dropdown-menu">
+										<li><a href="bombas.html">Bombas de agua</a></li>
+										<li><a href="piscinas_y_jacuzzis.html">Piscinas y Jacuzzis</a></li>
+										<li><a href="tanques_de_agua.html">Tanques de agua</a></li>
+										<li><a href="cisternas.html">Cisternas</a></li>
+										<li><a href="gasfiteria.html">Gasfitería</a></li>
+										<li><a href="termas.html">Termas</a></li>
+										<li role="separator" class="divider"></li>
+										<li><a href="linea_blanca.html">Línea blanca</a></li>
+										<li><a href="electricidad.html">Electricidad</a></li>
+										<li><a href="refrigeracion.html">Refrigeración</a></li>
+										<li role="separator" class="divider"></li>
+										<li><a href="drywall.html">Drywall</a></li>
+										<li><a href="albanileria.html">Albañilería</a></li>
+										<li><a href="cerrajeria.html">Cerrajería</a></li>
+										<li role="separator" class="divider"></li>
+										<li><a href="sistema_contra_incendio.html">Sistemas contra incendio</a></li>
+										<li><a href="cctv.html">Circuito Cerrado TV (CCTV)</a></li>
+									</ul>
+								</li>
+
+								<li>
+									<a href="contacto.html">Contacto</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+			</nav> <!--MENU HORIZONTAL FIXED-TOP-->
+		</header>
+
+		<section class="main_section" id="empresa">
+				<div class="container cont_bgwhite">
+					<div class="row">
+						<div class="container">
+							<div class="col-md-12 carousel_imagen">
+								<div id="carousel-1" class="carousel slide" data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+									</ol>
+
+									<div class="carousel-inner" role="listbox">
+										<div class="item active">
+											<img src="img\empresa_img.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="container col-md-4 col-xs-6 div_imagen">
+							<h1>Tanques de agua</h1>
+							<img src="img\cisternas_tanques_de_agua\img1.jpg" alt="">
+						</div>
+
+						<div class="col-md-4 col-xs-6 div_descripcion">
+							
+							<p>Llevamos a cabo el servicio de limpieza, desinfeccion y mantenimiento de cisternas y tanques de agua. 
+							<br><br>
+							Sabemos lo importante que es tu salud y la de tu familia, es por esa razon, que nuestro objetivo es prevenir la acumulacion de las impurezas que en el futuro lleguen a generar obstruccion de cañerias, deterioro de la estructura de los tanques o cisternas, contaminacion del agua o enfermedades estomacales. </p>
+						</div>
+
+						<div class="col-md-4 col-xs-12 div_form">
+							
+							<h2>Solicita Información aquí</h2>
+
+							<form action="enviar.php" method="post">
+								<div class="form-group">
+									<label for="nombre">Nombre:</label>
+									<input class="form-control" id="nombre" name="nombre" type="text" placeholder="Nombre" required></input>
+								</div>
+
+								<div class="form-group">
+									<label for="correo">Correo:</label>
+									<input class="form-control" id="correo" name="correo" type="text" placeholder="email@ejemplo.com" name="email" required></input>
+								</div>	
+
+								<div class="form-group">
+									<label for="telefono">Telefono:</label>
+									<input class="form-control" id="telefono" name="telefono" type="text" placeholder="#" required></input>
+								</div>
+
+								<div class="form-group">
+									<label for="mensaje">Mensaje:</label>
+									<textarea class="form-control" id="mensaje" name="mensaje" cols="30" rows="5" placeholder="Escriba su mensaje aqui..."  required></textarea>
+								</div>
+
+								<div class="btn_Enviar">
+									<button class="btn btn-primary" type="submit">Enviar</button>
+								</div>
+							</form>
+							
+						</div>
+					</div>
+
+
+				</div>
+		</section>
+		
+		<footer>
+				<div class="container ">
+					<div class="row footer_div">			
+
+						<div class="col-md-3 col-xs-6 uno">
+							<h3>Información de contacto</h3>
+							<h4><small><i class="glyphicon glyphicon-phone"></i> (51) 993490669 / 969100299</small></h4>
+							
+							<h4><small><i class="glyphicon glyphicon-envelope"></i> contacto@servipowerperu.com</small></h4>
+						</div>
+
+						<div class="col-md-6 col-xs-12 dos">
+
+							<div class="links_mid">
+								<small><a href="">Bombas de agua </a></small><span>|</span>
+								<small><a href="">Hidromasajes </a></small><span>|</span>
+								<small><a href="">Piscina y Jacuzzi </a></small><span>|</span>
+								<small><a href="">Cisternas y Tanques de Agua </a></small><span>|</span>
+								<small><a href="">Electricidad </a></small><span>|</span>
+								<small><a href="">Refrigeracion </a> </small><span>|</span>
+								<small><a href="">Albañilería </a></small><span>|</span>
+								<small><a href="">Cerrajeria </a></small><span>|</span>
+								<small><a href="">Termas </a></small><span>|</span>
+								<small><a href="">Linea Blanca</a></small><span>|</span>
+								
+							</div>
+
+							<div class="copyright">
+								<small><p>Copyright © 2016. ServiPower. All rights reserved</p></small>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6 tres">
+							<div class="followus pull-right">
+								<h3>Síguenos</h3>
+								<img src="img/social24.png" alt="">
+								<img src="img/youtube.png" alt="">
+							</div>
+						</div>
+						
+					</div>
+				</div>
+		</footer>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/libs/bootstrap/bootstrap.min.js"></script>
+
+		<script src="js/app.js"></script>
+
+	</body>
+</html>
+
+
